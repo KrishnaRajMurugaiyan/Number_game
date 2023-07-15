@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="./app.js"></script>
+<body onload="loading()" id="b2">
+   <div id="NUMH"><h1>I HAVE A NUMBER BETWEEN 1 TO 100 IN MY MIND.CAN YOU GUESS IT?</h1></div>
+   <div><input type="number" id="inp" required min="1" max="100"></div>
+   <div id="submit"><button id="sub" onclick="submitted()">SUBMIT</button></div>
+   <div><button id="res" onclick="cleardata()">RESET</button></div>
+   <div id="remain"><p>Remaining lives:</p><p id="rm"></p></div>
+   
+   <div id="gus"><p id="guess"></p></div>
+</body>
+</html>
